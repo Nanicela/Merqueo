@@ -7,14 +7,13 @@
 Merqueo utiliza Node.js, NPM y Firebase, por lo que deben instalarse de manera global.
 
 # Instalar dependencias
-$ npm install
+$ npm i
 
-# Instalar Firebase de manera global:
-$ npm install firebase
+# Instalar Firebase de manera global
+$ npm i -g firebase
 
-- Instalamos todas las dependencias de npm. Hacemos $npm i
 
-# carga instantánea de cambios en localhost:3000
+# Correr en local con Hot Reload (carga instantánea de cambios)
 $ npm run dev
 
 
