@@ -8,18 +8,7 @@ Merqueo uses Node.js, NPM and Firebase, so they must be installed globally.
 
 ## Build Setup
 
-```bash
-# install dependencies
-$ npm install
 
-# To install firebase we go to the terminal and use the following commands:
-
-$ npm install firebase
-
-- We install all npm dependencies. We do $npm i
-
-# serve with hot reload at localhost:3000
-$ npm run dev
 
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
