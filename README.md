@@ -1,8 +1,8 @@
-# merqueo2
+# merqueo
 
 
 
-### Setup
+### Configuración
 
 Merqueo utiliza Node.js, NPM y Firebase, por lo que deben instalarse de manera global.
 
