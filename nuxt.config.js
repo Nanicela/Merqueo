@@ -1,3 +1,4 @@
+import credentials from "./credentials.json"
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -32,6 +33,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/firebase'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -41,9 +43,8 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/firebase'
   ],
-
   firebase: credentials.firebase,
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
 }
