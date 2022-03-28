@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-card class="product-card mt-2 mb-2" :header="product.attributes.name" :img-src="product.attributes.image_medium_url" img-alt="Image" img-top>
+    <b-card class="product-card mt-2 mb-2" :header="product.attributes.name" header-bg-variant="white" body-class="pt-1" :img-src="product.attributes.image_medium_url" img-alt="Image" img-top>
       <b-card-text class="text-center">{{ printMoney(product.attributes.price) }}</b-card-text>
     </b-card>
   </div>
